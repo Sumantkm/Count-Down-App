@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer{
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.value{
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+i{
+    cursor: pointer;
+    font-size: 70px;
+    
+}
+
+.fa-stopwatch-20{
+    margin-top: 20px;
+}
+
+h3{
+    color: #408383;
+}
+
+.active,
+.stopActive{
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
